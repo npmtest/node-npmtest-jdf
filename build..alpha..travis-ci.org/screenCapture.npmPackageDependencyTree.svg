@@ -1,16 +1,16 @@
 <svg height="13486" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="13486" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">180 megabytes installed</tspan>
+<tspan x="10" y="26">179 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
-<tspan x="10" y="74">└─┬ jdf@2.1.40 </tspan>
+<tspan x="10" y="74">└─┬ jdf@2.1.41 </tspan>
 <tspan x="10" y="90">  ├─┬ async@2.1.4 </tspan>
 <tspan x="10" y="106">  │ └── lodash@4.17.4 </tspan>
 <tspan x="10" y="122">  ├── atropa-jslint@0.1.2 </tspan>
 <tspan x="10" y="138">  ├─┬ autoprefixer@6.5.3 </tspan>
 <tspan x="10" y="154">  │ ├── browserslist@1.4.0 </tspan>
-<tspan x="10" y="170">  │ ├── caniuse-db@1.0.30000656 </tspan>
+<tspan x="10" y="170">  │ ├── caniuse-db@1.0.30000661 </tspan>
 <tspan x="10" y="186">  │ ├── normalize-range@0.1.2 </tspan>
 <tspan x="10" y="202">  │ ├── num2fraction@1.2.2 </tspan>
 <tspan x="10" y="218">  │ └── postcss-value-parser@3.3.0 </tspan>
@@ -42,10 +42,10 @@
 <tspan x="10" y="634">  │ │   └── loose-envify@1.3.1 </tspan>
 <tspan x="10" y="650">  │ ├─┬ babel-types@6.24.1 </tspan>
 <tspan x="10" y="666">  │ │ └── to-fast-properties@1.0.2 </tspan>
-<tspan x="10" y="682">  │ ├── babylon@6.16.1 </tspan>
+<tspan x="10" y="682">  │ ├── babylon@6.17.0 </tspan>
 <tspan x="10" y="698">  │ ├── convert-source-map@1.5.0 </tspan>
-<tspan x="10" y="714">  │ ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="730">  │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="714">  │ ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="730">  │ │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="746">  │ ├── json5@0.5.1 </tspan>
 <tspan x="10" y="762">  │ ├─┬ minimatch@3.0.3 </tspan>
 <tspan x="10" y="778">  │ │ └─┬ brace-expansion@1.1.7 </tspan>
@@ -200,7 +200,7 @@
 <tspan x="10" y="3162">  │ │ ├── extglob@0.3.2 </tspan>
 <tspan x="10" y="3178">  │ │ ├── filename-regex@2.0.0 </tspan>
 <tspan x="10" y="3194">  │ │ ├── is-extglob@1.0.0 </tspan>
-<tspan x="10" y="3210">  │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="3210">  │ │ ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="3226">  │ │ │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="3242">  │ │ ├─┬ normalize-path@2.1.1 </tspan>
 <tspan x="10" y="3258">  │ │ │ └── remove-trailing-separator@1.0.1 </tspan>
@@ -690,7 +690,7 @@
 <tspan x="10" y="11002">  │ │ │ └── signal-exit@3.0.2 </tspan>
 <tspan x="10" y="11018">  │ │ ├── map-obj@1.0.1 </tspan>
 <tspan x="10" y="11034">  │ │ ├── minimist@1.2.0 </tspan>
-<tspan x="10" y="11050">  │ │ ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="11050">  │ │ ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="11066">  │ │ │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="11082">  │ │ │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="11098">  │ │ │ │ └── builtin-modules@1.1.1 </tspan>
@@ -709,10 +709,10 @@
 <tspan x="10" y="11306">  │ │ ├── semver@5.3.0 </tspan>
 <tspan x="10" y="11322">  │ │ └── tar@2.2.1 </tspan>
 <tspan x="10" y="11338">  │ ├─┬ npmlog@4.0.2 </tspan>
-<tspan x="10" y="11354">  │ │ ├─┬ are-we-there-yet@1.1.2 </tspan>
+<tspan x="10" y="11354">  │ │ ├─┬ are-we-there-yet@1.1.4 </tspan>
 <tspan x="10" y="11370">  │ │ │ └── delegates@1.0.0 </tspan>
 <tspan x="10" y="11386">  │ │ ├── console-control-strings@1.1.0 </tspan>
-<tspan x="10" y="11402">  │ │ └─┬ gauge@2.7.3 </tspan>
+<tspan x="10" y="11402">  │ │ └─┬ gauge@2.7.4 </tspan>
 <tspan x="10" y="11418">  │ │   ├── aproba@1.1.1 </tspan>
 <tspan x="10" y="11434">  │ │   ├── has-unicode@2.0.1 </tspan>
 <tspan x="10" y="11450">  │ │   └── wide-align@1.1.0 </tspan>
@@ -813,7 +813,7 @@
 <tspan x="10" y="12970">  │ │ │ └── is-obj@1.0.1 </tspan>
 <tspan x="10" y="12986">  │ │ ├─┬ unique-string@1.0.0 </tspan>
 <tspan x="10" y="13002">  │ │ │ └── crypto-random-string@1.0.0 </tspan>
-<tspan x="10" y="13018">  │ │ └─┬ write-file-atomic@1.3.1 </tspan>
+<tspan x="10" y="13018">  │ │ └─┬ write-file-atomic@1.3.3 </tspan>
 <tspan x="10" y="13034">  │ │   ├── imurmurhash@0.1.4 </tspan>
 <tspan x="10" y="13050">  │ │   └── slide@1.1.6 </tspan>
 <tspan x="10" y="13066">  │ ├── is-npm@1.0.0 </tspan>
@@ -831,7 +831,7 @@
 <tspan x="10" y="13258">  │ │   │ ├── timed-out@4.0.1 </tspan>
 <tspan x="10" y="13274">  │ │   │ ├── unzip-response@2.0.1 </tspan>
 <tspan x="10" y="13290">  │ │   │ └── url-parse-lax@1.0.0 </tspan>
-<tspan x="10" y="13306">  │ │   ├─┬ registry-auth-token@3.1.2 </tspan>
+<tspan x="10" y="13306">  │ │   ├─┬ registry-auth-token@3.3.0 </tspan>
 <tspan x="10" y="13322">  │ │   │ └─┬ rc@1.2.1 </tspan>
 <tspan x="10" y="13338">  │ │   │   ├── deep-extend@0.4.1 </tspan>
 <tspan x="10" y="13354">  │ │   │   ├── minimist@1.2.0 </tspan>
