@@ -1,6 +1,6 @@
 # npmtest-jdf
 
-#### basic test coverage for  [jdf (v2.1.40)](https://github.com/putaoshu/jdf)  [![npm package](https://img.shields.io/npm/v/npmtest-jdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jdf.svg)](https://travis-ci.org/npmtest/node-npmtest-jdf)
+#### basic test coverage for  [jdf (v2.1.41)](https://github.com/putaoshu/jdf)  [![npm package](https://img.shields.io/npm/v/npmtest-jdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jdf.svg)](https://travis-ci.org/npmtest/node-npmtest-jdf)
 
 #### 京东前端开发集成解决方案
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jdf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jdf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jdf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jdf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jdf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jdf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jdf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jdf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jdf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jdf/build/coverage.html/index.html)
 
@@ -35,41 +35,28 @@
 ```json
 
 {
-    "name": "jdf",
-    "description": "京东前端开发集成解决方案",
-    "version": "2.1.40",
     "author": {
         "name": "jdf"
     },
-    "homepage": "https://github.com/putaoshu/jdf",
-    "keywords": [
-        "jdf"
-    ],
-    "license": "MIT",
     "bin": {
         "jdf": "bin/jdf"
-    },
-    "engines": {
-        "node": ">= 4.2.6 <= 6.9.4"
-    },
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha test/jdf_output.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/putaoshu/jdf.git"
     },
     "bugs": {
         "url": "http://github.com/putaoshu/jdf/issues"
     },
-    "preferGlobal": true,
-    "readmeFilename": "README.md",
     "dependencies": {
+        "async": "2.1.4",
         "atropa-jslint": "0.1.2",
+        "autoprefixer": "6.5.3",
+        "babel-core": "6.18.2",
+        "babel-preset-es2015": "6.18.0",
+        "babel-preset-stage-1": "6.16.0",
+        "browser-sync": "2.18.2",
         "clean-css": "2.1.8",
         "colors": "1.0.2",
+        "commander": "2.9.0",
         "csslint": "0.10.0",
+        "cssnext": "1.8.4",
         "expect.js": "0.3.1",
         "ftp": "0.3.6",
         "html-minifier": "0.6.9",
@@ -81,28 +68,59 @@
         "js-beautify": "1.5.4",
         "jsmart": "2.14.0",
         "less": "2.7.1",
+        "node-sass": "4.1.1",
         "node-watch": "0.4.1",
+        "postcss": "5.2.6",
         "q": "1.0.1",
+        "qrcode-terminal": "0.11.0",
         "requirejs": "2.3.2",
         "simple-prompt": "0.2.1",
-        "tar": "0.1.19",
-        "velocityjs": "0.4.3",
-        "webp-converter": "2.1.4",
-        "babel-core": "6.18.2",
-        "babel-preset-es2015": "6.18.0",
-        "babel-preset-stage-1": "6.16.0",
-        "async": "2.1.4",
-        "autoprefixer": "6.5.3",
-        "postcss": "5.2.6",
-        "cssnext": "1.8.4",
-        "commander": "2.9.0",
-        "browser-sync": "2.18.2",
-        "qrcode-terminal": "0.11.0",
-        "node-sass": "4.1.1",
-        "uglify-js": "2.7.5",
         "sync-request": "4.0.1",
-        "update-notifier": "2.1.0"
-    }
+        "tar": "0.1.19",
+        "uglify-js": "2.7.5",
+        "update-notifier": "2.1.0",
+        "velocityjs": "0.4.3",
+        "webp-converter": "2.1.4"
+    },
+    "description": "京东前端开发集成解决方案",
+    "devDependencies": {
+        "expect.js": "^0.3.1",
+        "mocha": "3.2.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "3a92bb8c83ba3b10e6ac757ec7899fd8decc8817",
+        "tarball": "https://registry.npmjs.org/jdf/-/jdf-2.1.41.tgz"
+    },
+    "engines": {
+        "node": ">= 4.2.6"
+    },
+    "gitHead": "09d156aa7ad305b8f3af5eb55ebfdff780e02bd4",
+    "homepage": "https://github.com/putaoshu/jdf",
+    "keywords": [
+        "jdf"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "putaoshu"
+        },
+        {
+            "name": "wshxbqq"
+        }
+    ],
+    "name": "jdf",
+    "optionalDependencies": {},
+    "preferGlobal": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/putaoshu/jdf.git"
+    },
+    "scripts": {
+        "test": "mocha test/index.js"
+    },
+    "version": "2.1.41"
 }
 ```
 
